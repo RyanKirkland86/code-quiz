@@ -11,8 +11,7 @@ var questionFive = document.querySelector("#question5");
 var secondsLeft = 0;
 
 //When you click the START button, a timer starts and you are presented with a question
-startQuiz.addEventListener("click", function(){
-
+startQuiz.addEventListener("click", function gameBegins(){
     secondsLeft = 100;
 
     var timerInterval = setInterval(function() {
