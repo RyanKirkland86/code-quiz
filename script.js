@@ -1,4 +1,9 @@
-
+var startQuiz = document.querySelector("#start-quiz");
+var questionOne = document.querySelector("#question1");
+var questionTwo = document.querySelector("#question2");
+var questionThree = document.querySelector("#question3");
+var questionFour = document.querySelector("#question4");
+var questionFive = document.querySelector("#question5");
 
 var secondsLeft = 0;
 
