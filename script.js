@@ -12,7 +12,16 @@ var secondsLeft = 0;
 
 //When you click the START button, a timer starts and you are presented with a question
 startQuiz.addEventListener("click", function gameBegins(){
+    
     secondsLeft = 100;
+
+    var startPage = document.querySelector("#start-page");
+    
+    if (startPage.style.display === "none") {
+        startPage.style.display = "block";
+    } else {
+        startPage.style.display = "none";
+    };
 
     var timerInterval = setInterval(function() {
         secondsLeft--;
