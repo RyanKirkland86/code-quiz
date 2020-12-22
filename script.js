@@ -1,3 +1,7 @@
+
+
+var secondsLeft = 0;
+
 //When you click the START button, a timer starts and you are presented with a question
 
 

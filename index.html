@@ -4,11 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css" />
     <title>Timed Code Quiz</title>
   </head>
   <body>
-    
+      <div class="container">
+          <h2>Coding Quiz Challenge!</h2>
+          <p>Try to answer the following questions within the time limit. Keep in mind that incorrect answers will penalize your score/time remaining by 10 seconds.</p>
+          <button id="start-quiz" type="button" class="btn btn-primary">Start Quiz!</button>
+      </div>
+      <div id="question1" class="card">
+        <div class="card-body">
+            <h2>Question 1!</h2>
+            <ul>
+                <li>
+                    <button id="correct-answer" type="button" class="btn btn-primary">Correct Answer</button>
+                </li>
+                <li>
+                    <button id="wrong-answer" type="button" class="btn btn-primary">Wrong Answer</button>
+                </li>
+                <li>
+                    <button id="wrong-answer" type="button" class="btn btn-primary">Wrong Answer</button>
+                </li>
+                <li>
+                    <button id="wrong-answer" type="button" class="btn btn-primary">Wrong Answer</button>
+                </li>
+            </ul>
+        </div>
+      </div>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+
     <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    
   </body>
 </html>
